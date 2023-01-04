@@ -1,4 +1,4 @@
-import 'package:delivery_food/pages/menuPage.dart';
+import 'package:delivery_food/Home/main_food_page.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: MenuPage(),
+      home: MainFoodPage(),
       
      
     );
